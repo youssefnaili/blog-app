@@ -1,0 +1,87 @@
+.card1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  }
+  
+  .card2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+  }
+  
+  .target {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+  }
+  
+  .create-post {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .create-post h4 {
+    margin-bottom: 10px;
+  }
+  
+  .create-post input,
+  .create-post textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .create-post button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-post button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 0 0 33.33%; /* Each column takes 1/3 of the row */
+    max-width: 33.33%;
+    padding: 0 15px;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .post-title {
+    margin-top: 0;
+  }
+  
+  .post-description {
+    margin-bottom: 0;
+  }
+  
